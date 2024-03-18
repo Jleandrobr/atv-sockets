@@ -13,7 +13,7 @@ import java.io.*;
 import java.net.Socket;
 import java.util.Date;
 
-public class NomeClient {
+public class NomeClient02 {
 	public static void main(String[] args)  {
 		try {
 			// this could be changed to an IP name or address other than the localhost
@@ -21,7 +21,7 @@ public class NomeClient {
 			InputStream in = servidorSock.getInputStream();
 			BufferedReader bin = new BufferedReader(new InputStreamReader(in));
 
-			System.out.println("=== Cliente iniciado ===\n");
+			System.out.println("=== Cliente iniciado 02 ===\n");
 
 			String line = bin.readLine();
 			System.out.println("O servidor me disse:" + line);
